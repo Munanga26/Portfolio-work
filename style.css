@@ -1,0 +1,47 @@
+html {
+	overflow-y: auto;
+}
+body {
+	font-family: sans-serif;
+	background: linear-gradient(140deg, #00ff00, #fff);
+}
+main {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	margin: 50px auto;
+}
+.pic_of_me {
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.btn {
+	background-color: #00ff00;
+	padding: 16px 20px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.footer {
+	border-radius: 20px 27px;
+	background-color: aquamarine;
+	color: #fff;
+	text-align: center;
+}
+h3 {
+	text-decoration: underline;
+}
+li:hover {
+	background-color: #fff;
+	border-radius: 10px solid #ccc;
+}
+.hobbies li{
+	text-decoration: none;
+}
